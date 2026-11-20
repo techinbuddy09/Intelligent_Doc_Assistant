@@ -1,0 +1,33 @@
+
+# API
+fastapi
+uvicorn[standard]
+pydantic-settings
+python-multipart
+
+# PDF processing
+pymupdf
+docling-slim[format-pdf-docling,models-local]
+opencv-python-headless
+
+# LLM / RAG
+langchain
+langchain-docling
+
+
+# Deep learning - CPU
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.8.0+cpu
+torchvision==0.23.0+cpu
+
+# Testing
+pytest
+httpx
+
+langchain-text-splitters
+
+sentence-transformers
+
+chromadb
+
+langchain-ollama
