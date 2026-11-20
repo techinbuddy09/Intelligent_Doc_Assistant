@@ -1,0 +1,30 @@
+
+services:
+  intelligent-document-assistant:
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    container_name: intelligent-document-assistant
+
+    ports:
+      - "8000:8000"
+
+    environment:
+      DEBUG: "false"
+      OLLAMA_BASE_URL: "http://host.docker.internal:11434"
+      OLLAMA_MODEL: "gemma3:4b"
+      UPLOAD_DIR: "/app/data/uploads"
+      CHROMA_PERSIST_DIR: "/app/data/chroma_db"
+      SQLITE_DB_PATH: "/app/data/documents.db"
+
+    volumes:
+      - assistant_data:/app/data
+
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+
+    restart: unless-stopped
+
+volumes:
+  assistant_data:
