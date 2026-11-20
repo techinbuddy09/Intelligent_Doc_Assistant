@@ -1,11 +1,7 @@
+
 # Intelligent Document Assistant
 
 ### An AI-powered document intelligence system built with Retrieval-Augmented Generation (RAG).
-
-<img width="1534" height="694" alt="Proof 2" src="https://github.com/user-attachments/assets/b650a05b-dc63-4fd1-9076-2603aa40abe3" />
-<img width="1528" height="693" alt="Proof 1" src="https://github.com/user-attachments/assets/de599059-7c61-4e95-a12b-f787d5dbd57e" />
-<img width="1534" height="692" alt="Proof 3" src="https://github.com/user-attachments/assets/589b108c-fd95-455c-98fa-daf3e7f3588a" />
-
 
 ---
 
@@ -246,9 +242,9 @@ Make sure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/J-Dharanendiran/intelligent-document-assistant.git
+git clone https://github.com/techinbuddy09/Intelligent_Doc_Assistant.git
 
-cd intelligent-document-assistant
+cd Intelligent_Doc_Assistant
 ```
 
 ### 2. Set Up Ollama
@@ -482,11 +478,7 @@ The focus will remain on measurable improvements to retrieval quality, document 
 
 ## Author
 
-**Dharanendiran J**
-
-Aspiring AI Engineer | Data Science Student | Video Editor
-
-GitHub: [@J-Dharanendiran](https://github.com/J-Dharanendiran)
+**Tulika Srivastava**
 
 ---
 
